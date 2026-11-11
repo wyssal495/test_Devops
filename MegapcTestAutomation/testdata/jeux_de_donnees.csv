@@ -1,0 +1,24 @@
+﻿test;type;champ;valeur;commentaire
+TC01;URL;BASE_URL;https://megapc.tn/;Page d'accueil
+TC01;Texte attendu;Titre contient;pc gamer;Titre réel : Pc Gamer Tunisie - Processeur - Carte Graphique
+TC02;Recherche;Terme valide;RTX;Produit existant
+TC03;Recherche;Terme invalide;xyz123456789;Aucun résultat attendu
+TC04;Navigation;Catégorie;PC PORTABLE;/shop/Nos-Categories/PC%20PORTABLE
+TC05;Navigation;Sous-catégorie;PC PORTABLE GAMER;/shop/PC%20PORTABLE/PC%20PORTABLE%20GAMER
+TC08;Panier;Quantité;2;Quantité cible
+TC09;Formulaire;Email invalide;email-invalide-sans-arobase;Sans « @ »
+TC10;Formulaire;Identifiant;;Champ vide
+TC10;Formulaire;Mot de passe;;Champ vide
+TC11;Formulaire;Email incorrect;wrong@test.tn;Compte inexistant
+TC11;Formulaire;Mot de passe incorrect;pass123;—
+TC12;Recherche;Marque (tuile accueil);ASUS;/shop/search/ASUS
+TC13;Filtre;Marque (paramètre);GIGABYTE;/shop/ECRANS/ECRANS%20GAMING?marque=GIGABYTE
+TC14;Tri;Ordre;prix croissant;Option du menu de tri
+TC15;Defaut;Image de remplacement interdite;AFFICHE EN COURS;Pages : /, /shop/ECRANS/ECRANS%20GAMING, /shop/PC%20PORTABLE/PC%20PORTABLE%20GAMER
+TC18;Defaut;Prix interdit;0 DT;Memes pages que TC15 (ex. PNY NVIDIA DGX Spark)
+TC16;Texte attendu;Téléphone;28777101;Pied de page
+TC16;Texte attendu;Adresse (fragment);ben arous;Pied de page
+TC17;URL;Facebook;facebook.com/GoMegaPC;—
+TC17;URL;Instagram;instagram.com/megapc_official;—
+TC17;URL;YouTube;youtube.com/channel;—
+TC19;URL;Conditions;/conditions;Statut HTTP 200 attendu
